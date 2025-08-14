@@ -38,8 +38,8 @@ body, html {
   align-items: stretch;
   padding: 40px;
   height: auto; /* Permite que a altura se ajuste automaticamente ao conteúdo */
-  width: 80%;
-  max-width: 450px;
+  /* width: 80%;
+  max-width: 450px; */
   background-color: #231F1F;
   border-radius: 32px;
   gap: 20px; /* Espaçamento de 20px entre os itens */
@@ -199,7 +199,7 @@ body, html {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 60%;
+  /* width: 60%; */
   justify-content: space-between;
   background-color: #231F1F;
   border-radius: 32px;
@@ -247,8 +247,8 @@ body, html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 60%;
-  max-width: 60%;
+  /* min-width: 60%;
+  max-width: 60%; */
   height: 100%;
   gap: 20px;
 }
@@ -320,11 +320,17 @@ body, html {
 .guess-item-content-container{
   padding-top: 20px;
   padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 20px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .info-content{
@@ -351,6 +357,7 @@ body, html {
   color: #fff;
   font-size: 16px;
   font-weight: bold;
+  flex-shrink: 0;
 }
 
 .info-content-container p {
@@ -590,3 +597,442 @@ body, html {
   filter: none;
 } 
 */
+
+.App-header-container,
+.caption,
+.guesses-container {
+  width: 90%;          /* Largura flexível para se adaptar a telas menores */
+  max-width: 800px;    /* Largura máxima para não ficar largo demais em telas grandes */
+  
+  /* As regras abaixo garantem a centralização, complementando o flex do container pai */
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* Zera min-width para evitar conflitos */
+  min-width: 0; 
+}
+
+/* ==================== MEDIA QUERIES RESPONSIVAS ==================== */
+
+/* Tablets grandes e telas médias */
+@media screen and (max-width: 1200px) {
+  .App-header {
+    padding-top: 60px;
+    gap: 30px;
+  }
+
+  .App-header-container {
+    /* width: 85%; */
+    padding: 30px;
+  }
+
+  .caption {
+    /* width: 85%; */
+    padding: 15px;
+    border-radius: 24px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .guesses-container {
+    /* width: 85%; */
+    flex-wrap: wrap;
+  }
+
+  .guesses-item-content-container {
+    flex-direction: row;
+    width: 45%;
+  }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+  .App-header {
+    padding-top: 40px;
+    gap: 20px;
+  }
+
+  .App-header-container {
+    /* width: 90%; */
+    padding: 25px;
+    border-radius: 24px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .App-main {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .caption {
+    /* width: 95%; */
+    padding: 15px;
+    border-radius: 24px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .legend-container {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .palpites-text {
+    font-size: 20px;
+  }
+
+  .guesses-container {
+    /* width: 95%; */
+    gap: 15px;
+  }
+
+  .guess-item {
+    border-radius: 24px;
+  }
+
+  .guess-item-profile {
+    gap: 25px;
+    padding: 25px 20px 15px 25px;
+  }
+
+  .guess-item-number {
+    padding: 25px 25px 15px 20px;
+  }
+
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+  }
+
+  .profile-name {
+    font-size: 20px;
+  }
+
+  .guess-number {
+    font-size: 20px;
+  }
+
+  .guess-item-content-container {
+    padding: 15px 20px 25px;
+    gap: 15px;
+    /* flex-wrap: wrap; */
+  }
+
+  .info-content-container {
+    width: 80px;
+    height: 80px;
+    font-size: 14px;
+  }
+
+  .info-content-container p {
+    font-size: 12px;
+  }
+
+  .suggestion-image {
+    width: 60px;
+    height: 60px;
+  }
+
+  .countdown-container {
+    padding: 20px;
+  }
+
+  .countdown-label {
+    font-size: 18px;
+  }
+
+  .countdown-time {
+    font-size: 20px;
+  }
+
+  .modal-employee-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .modal-employee-name {
+    font-size: 20px;
+  }
+}
+
+/* Smartphones */
+@media screen and (max-width: 480px) {
+  .App-header {
+    padding-top: 20px;
+    gap: 15px;
+  }
+
+  .App-header-container {
+    /* width: 95%; */
+    padding: 20px;
+    border-radius: 20px;
+    gap: 15px;
+  }
+
+  .title {
+    font-size: 24px;
+    width: 40%;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .input-wrapper {
+    gap: 8px;
+  }
+
+  .text-input {
+    padding: 12px 15px;
+    font-size: 14px;
+    height: 45px;
+  }
+
+  .button-container {
+    width: 20%;
+    min-width: 45px;
+  }
+
+  .action-button {
+    padding: 12px 0;
+    font-size: 14px;
+  }
+
+  .App-main {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .caption {
+    /* width: 100%; */
+    padding: 12px;
+    border-radius: 20px;
+    gap: 12px;
+  }
+
+  .palpites-text {
+    font-size: 18px;
+  }
+
+  .legend-container {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .legend-text {
+    font-size: 14px;
+  }
+
+  .circle {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+  }
+
+  .guesses-container {
+    /* width: 100%; */
+    gap: 12px;
+  }
+
+  .guess-item {
+    border-radius: 20px;
+  }
+
+  .guess-item-profile {
+    gap: 15px;
+    padding: 20px 15px 12px 20px;
+  }
+
+  .guess-item-number {
+    padding: 20px 20px 12px 15px;
+  }
+
+  .profile-pic {
+    width: 60px;
+    height: 60px;
+  }
+
+  .profile-name {
+    font-size: 16px;
+  }
+
+  .guess-number {
+    font-size: 16px;
+  }
+
+  .guess-item-content-container {
+    padding: 12px 15px 20px;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+  }
+
+  .info-content-container {
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+  }
+
+  .info-content-container p {
+    font-size: 10px;
+    line-height: 1.2;
+  }
+
+  .arrow {
+    font-size: 16px;
+  }
+
+  .suggestion-item {
+    padding: 8px 15px;
+    gap: 8px;
+  }
+
+  .suggestion-image {
+    width: 45px;
+    height: 45px;
+  }
+
+  .suggestions-container {
+    max-height: 150px;
+    font-size: 14px;
+  }
+
+  .yesterday-employee-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .yesterday-employee p:nth-child(2) {
+    font-size: 18px;
+  }
+
+  .countdown-container {
+    padding: 15px;
+  }
+
+  .countdown-label {
+    font-size: 16px;
+  }
+
+  .countdown-time {
+    font-size: 18px;
+  }
+
+  .modal-content {
+    width: 90%;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .modal-employee-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .modal-employee-name {
+    font-size: 18px;
+  }
+
+  .resolution-modal-content {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .resolution-modal-body p {
+    font-size: 16px;
+  }
+
+  .attempt-circle {
+    width: 12px;
+    height: 12px;
+  }
+
+  .attempts-container {
+    gap: 8px;
+  }
+}
+
+/* Smartphones muito pequenos */
+@media screen and (max-width: 360px) {
+  .App-header-container {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 22px;
+    width: 50%;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .text-input {
+    padding: 10px 12px;
+    font-size: 14px;
+    height: 40px;
+  }
+
+  .button-container {
+    width: 25%;
+    min-width: 40px;
+  }
+
+  .action-button {
+    padding: 10px 0;
+    font-size: 12px;
+  }
+
+  .guess-item-content-container {
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .info-content-container {
+    width: 50px;
+    height: 50px;
+    font-size: 10px;
+  }
+
+  .info-content-container p {
+    font-size: 9px;
+  }
+
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+  }
+
+  .profile-name {
+    font-size: 14px;
+  }
+
+  .palpites-text {
+    font-size: 16px;
+  }
+
+  .legend-text {
+    font-size: 12px;
+  }
+
+  .modal-employee-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .modal-employee-name {
+    font-size: 16px;
+  }
+
+  .yesterday-employee-image {
+    width: 60px;
+    height: 60px;
+  }
+
+}
