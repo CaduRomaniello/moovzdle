@@ -111,7 +111,7 @@ const GuessItem = ({ guess, correctAnswer, guessNumber }) => {
 
             <div className="guess-item-content-container">
                 <div className="info-content">
-                    <p>Nascimento</p>
+                    <p>Idade</p>
                     {(() => {
                         const colorClass = getColorClass('NASCIMENTO', guess.NASCIMENTO);
                         return (

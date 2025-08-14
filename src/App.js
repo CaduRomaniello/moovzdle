@@ -2,54 +2,8 @@ import GuessItem from './guessItem';
 import './styles/App.css';
 import React, { useState, useEffect } from 'react';
 import employeesData from './data/classic2.json';
-// import logo from './logo.svg'; // Certifique-se que o caminho está correto
-
-// const correctAnswer = {
-//   "NOME": "CADU",
-//   "NASCIMENTO": "05/10/2001",
-//   "GENERO": "MASCULINO",
-//   "ALTURA": 1.8,
-//   "CABELO": "CURTO",
-//   "CARGO": "DEV",
-//   "SETOR": "PRODUTO",
-//   "LIDERANÇA": "NAO",
-//   "INGRESSO": "04/2025",
-//   "HOBBY": [
-//     "MUSICA",
-//     "ESPORTES",
-//     "VIDEOGAME",
-//     "ACADEMIA"
-//   ],
-//   "FOTOS": "https://imgur.com/DfQgmAZ.jpeg",
-//   "DIA": "05",
-//   "MES": "10",
-//   "ANO": "2001"
-// };
-
-// const guess = {
-//   "NOME": "CADU",
-//   "NASCIMENTO": "05/10/2001",
-//   "GENERO": "MASCULINO",
-//   "ALTURA": 1.8,
-//   "CABELO": "CURTO",
-//   "CARGO": "DEV",
-//   "SETOR": "PRODUTO",
-//   "LIDERANÇA": "NAO",
-//   "INGRESSO": "04/2025",
-//   "HOBBY": [
-//     "MUSICA",
-//     "ESPORTES",
-//     "VIDEOGAME",
-//     "ACADEMIA"
-//   ],
-//   "FOTOS": "https://imgur.com/DfQgmAZ.jpeg",
-//   "DIA": "05",
-//   "MES": "10",
-//   "ANO": "2001"
-// };
 
 const correctAnswer = {}
-// const guesse = {}
 
 function toTitleCase(str) {
   if (!str) return str;
@@ -102,28 +56,6 @@ function App() {
     seconds: 0
   });
   const [lastPlayedDate, setLastPlayedDate] = useState(null);
-
-  const [isResolutionOk, setIsResolutionOk] = useState(true);
-  const minWidth = 1980; // Largura mínima aceitável em pixels
-  const minHeight = 600; // Altura mínima aceitável em pixels
-
-  useEffect(() => {
-    // Função para verificar se a resolução é adequada
-    const checkResolution = () => {
-      const width = window.innerWidth;
-      const height = window.innerHeight;
-      setIsResolutionOk(width >= minWidth && height >= minHeight);
-    };
-    
-    // Verificar imediatamente ao carregar
-    checkResolution();
-    
-    // Adicionar listener para redimensionamento da janela
-    window.addEventListener('resize', checkResolution);
-    
-    // Remover listener ao desmontar o componente
-    return () => window.removeEventListener('resize', checkResolution);
-  }, []);
 
   useEffect(() => {
     const updateTimer = () => {
@@ -275,7 +207,7 @@ function App() {
 
   return (
     <>
-    <div className={`App ${!isResolutionOk || showModal ? 'darkened-background' : ''}`}>
+    <div className={`App ${showModal ? 'darkened-background' : ''}`}>
       <div className="App-header">
         <img src="/logo.svg" alt="MOOVZ Logo" className="title" />
         <div className="App-header-container">
@@ -284,7 +216,8 @@ function App() {
             <>
             <div className="logo-container">
               <p className="subtitle">Adivinhe o funcionário</p>
-            </div><div className='input-wrapper'>
+            </div>
+            <div className='input-wrapper'>
                 <div className="input-container">
                   <input
                     type="text"
@@ -342,24 +275,11 @@ function App() {
               </div>
             </div>
           )}
-
-         
         </div>
       </div>
 
       {/* Main app */}
       <div className="App-main">
-
-        {/* Adicione este contador acima do caption */}
-        {/* <div className="countdown-container">
-          <div className="countdown-label">Próximo funcionário em:</div>
-          <div className="countdown-time">
-            {String(timeRemaining.hours).padStart(2, '0')}:
-            {String(timeRemaining.minutes).padStart(2, '0')}:
-            {String(timeRemaining.seconds).padStart(2, '0')}
-          </div>
-        </div> */}
-
         <div className="caption">
           <p className="palpites-text">Palpites</p>
 
@@ -386,7 +306,7 @@ function App() {
           ))}
         </div>
 
-        {/* Adicione isto após o fechamento da div guesses-container */}
+        {/* Funcionário de ontem */}
         <div className="yesterday-employee">
           {yesterdaysEmployee && (
             <>
@@ -401,8 +321,8 @@ function App() {
           )}
         </div>
       </div>
-
     </div>
+
     {/* Modal de vitória */}
     {showModal && (
       <div className="modal-overlay" onClick={closeModal}>
@@ -420,24 +340,6 @@ function App() {
                 className="modal-employee-image"
               />
               <p className="modal-employee-name">{toTitleCase(todaysEmployee?.NOME)}</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    )}
-
-    {/* Adicione o modal de resolução inadequada aqui */}
-    {!isResolutionOk && (
-      <div className="resolution-modal-overlay">
-        <div className="resolution-modal-content">
-          <div className="resolution-modal-header">
-            <h2>Resolução inadequada</h2>
-          </div>
-          <div className="resolution-modal-body">
-            <p>O Moovzdle ainda não suporta essa resolução de tela.</p>
-            <p>Por favor, aumente a janela do seu navegador ou diminua o zoom para continuar jogando.</p>
-            <div className="resolution-icon">
-              <span className="resolution-icon-arrows">↔️</span>
             </div>
           </div>
         </div>
