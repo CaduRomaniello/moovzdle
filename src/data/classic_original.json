@@ -1,0 +1,425 @@
+[
+  {
+    "NOME": "CADU",
+    "NASCIMENTO": "05/10/2001",
+    "GENERO": "MASCULINO",
+    "ALTURA": 1.8,
+    "TAMANHO DO CABELO": "CURTO",
+    "CARGO": "DEV",
+    "SETOR": "PRODUTO",
+    "LIDERANÇA": "NAO",
+    "INGRESSO NA MOOVZ": "04/2025",
+    "HOBBY": [
+      "MUSICA",
+      "ESPORTE",
+      "VIDEOGAME",
+      "ACADEMIA"
+    ],
+    "FOTOS": "https://imgur.com/DfQgmAZ.jpeg"
+  },
+  {
+    "NOME": "LUAN",
+    "NASCIMENTO": "19/01/1999",
+    "GENERO": "MASCULINO",
+    "ALTURA": 1.87,
+    "TAMANHO DO CABELO": "LONGO",
+    "CARGO": "DEV",
+    "SETOR": "PRODUTO",
+    "LIDERANÇA": "SIM",
+    "INGRESSO NA MOOVZ": "03/2023",
+    "HOBBY": [
+      "MUSICA"
+    ],
+    "FOTOS": "https://imgur.com/DMy0PIU.jpeg"
+  },
+  {
+    "NOME": "PEDRO",
+    "NASCIMENTO": "18/06/2004",
+    "GENERO": "MASCULINO",
+    "ALTURA": 1.8,
+    "TAMANHO DO CABELO": "CURTO",
+    "CARGO": "DEV",
+    "SETOR": "PRODUTO",
+    "LIDERANÇA": "NAO",
+    "INGRESSO NA MOOVZ": "03/2025",
+    "HOBBY": [
+      "VIDEOGAME",
+      "ACADEMIA",
+      "MUSICA"
+    ],
+    "FOTOS": "https://imgur.com/Zf7zdQx.jpeg"
+  },
+  {
+    "NOME": "VICTOR HUGO",
+    "NASCIMENTO": "29/04/1999",
+    "GENERO": "MASCULINO",
+    "ALTURA": 1.7,
+    "TAMANHO DO CABELO": "CURTO",
+    "CARGO": "DEV",
+    "SETOR": "PRODUTO",
+    "LIDERANÇA": "NAO",
+    "INGRESSO NA MOOVZ": "03/2025",
+    "HOBBY": [
+      "VIDEOGAME",
+      "MUSICA",
+      "LIVROS",
+      "ESCREVER"
+    ],
+    "FOTOS": "https://imgur.com/lkMOqC8.jpeg"
+  },
+  {
+    "NOME": "CAIO",
+    "NASCIMENTO": "28/10/2003",
+    "GENERO": "MASCULINO",
+    "ALTURA": 1.71,
+    "TAMANHO DO CABELO": "CURTO",
+    "CARGO": "DEV",
+    "SETOR": "PRODUTO",
+    "LIDERANÇA": "NAO",
+    "INGRESSO NA MOOVZ": "07/2024",
+    "HOBBY": [
+      "MUSICA",
+      "VIDEOGAME",
+      "TENIS",
+      "ESPORTE"
+    ],
+    "FOTOS": "https://imgur.com/VfuVdML.jpeg"
+  },
+  {
+    "NOME": "JULIA",
+    "NASCIMENTO": "21/08/2002",
+    "GENERO": "FEMININO",
+    "ALTURA": 1.55,
+    "TAMANHO DO CABELO": "MEDIO",
+    "CARGO": "DESIGNER",
+    "SETOR": "PRODUTO",
+    "LIDERANÇA": "NAO",
+    "INGRESSO NA MOOVZ": "05/2025",
+    "HOBBY": [
+      "DANÇA",
+      "ARTE",
+      "CROCHÊ",
+      "LIVROS",
+      "ACADEMIA",
+      "FOTOGRAFIA"
+    ],
+    "FOTOS": "https://imgur.com/o0xjCnv.jpeg"
+  },
+  {
+    "NOME": "NICOLLE",
+    "NASCIMENTO": "15/08/2000",
+    "GENERO": "FEMININO",
+    "ALTURA": 1.58,
+    "TAMANHO DO CABELO": "MEDIO",
+    "CARGO": "DESIGNER",
+    "SETOR": "PRODUTO",
+    "LIDERANÇA": "SIM",
+    "INGRESSO NA MOOVZ": "10/2023",
+    "HOBBY": [
+      "ARTE",
+      "JOALHERIA",
+      "FOTOGRAFIA"
+    ],
+    "FOTOS": "https://imgur.com/JDvevrL.jpeg"
+  },
+  {
+    "NOME": "JOÂO VICTOR",
+    "NASCIMENTO": "13/04/2001",
+    "GENERO": "MASCULINO",
+    "ALTURA": 1.79,
+    "TAMANHO DO CABELO": "MEDIO",
+    "CARGO": "DEV",
+    "SETOR": "PRODUTO",
+    "LIDERANÇA": "NAO",
+    "INGRESSO NA MOOVZ": "04/2025",
+    "HOBBY": [
+      "VIDEOGAME",
+      "ARTE",
+      "ACADEMIA"
+    ],
+    "FOTOS": "https://imgur.com/BUPfU3R.jpeg"
+  },
+  {
+    "NOME": "MATHEUS D",
+    "NASCIMENTO": "04/12/2003",
+    "GENERO": "MASCULINO",
+    "ALTURA": 1.79,
+    "TAMANHO DO CABELO": "LONGO",
+    "CARGO": "DEV",
+    "SETOR": "PRODUTO",
+    "LIDERANÇA": "NAO",
+    "INGRESSO NA MOOVZ": "04/2025",
+    "HOBBY": [
+      "VIDEOGAME",
+      "ANIME",
+      "LIVROS"
+    ],
+    "FOTOS": "https://imgur.com/wZHwPed.jpeg"
+  },
+  {
+    "NOME": "JORGE",
+    "NASCIMENTO": "02/09/1994",
+    "GENERO": "MASCULINO",
+    "ALTURA": 1.68,
+    "TAMANHO DO CABELO": "CURTO",
+    "CARGO": "DEV",
+    "SETOR": "PRODUTO",
+    "LIDERANÇA": "NAO",
+    "INGRESSO NA MOOVZ": "03/2025",
+    "HOBBY": [
+      "ESPORTE",
+      "ACADEMIA",
+      "MUSICA",
+      "F1"
+    ],
+    "FOTOS": "https://imgur.com/98jJVCr.jpeg"
+  },
+  {
+    "NOME": "JOA",
+    "NASCIMENTO": "28/05/2001",
+    "GENERO": "MASCULINO",
+    "ALTURA": 1.79,
+    "TAMANHO DO CABELO": "CURTO",
+    "CARGO": "DESIGNER",
+    "SETOR": "PRODUTO",
+    "LIDERANÇA": "NAO",
+    "INGRESSO NA MOOVZ": "04/2025",
+    "HOBBY": [
+      "VIDEOGAME",
+      "MUSICA"
+    ],
+    "FOTOS": null
+  },
+  {
+    "NOME": "WANESSA",
+    "NASCIMENTO": null,
+    "GENERO": "FEMININO",
+    "ALTURA": null,
+    "TAMANHO DO CABELO": "LONGO",
+    "CARGO": "VENDEDOR",
+    "SETOR": "COMERCIAL",
+    "LIDERANÇA": "NAO",
+    "INGRESSO NA MOOVZ": null,
+    "HOBBY": [],
+    "FOTOS": "https://imgur.com/H3H6Ob1.jpeg"
+  },
+  {
+    "NOME": "DIOGO",
+    "NASCIMENTO": "26/07/2002",
+    "GENERO": "MASCULINO",
+    "ALTURA": 1.9,
+    "TAMANHO DO CABELO": "CURTO",
+    "CARGO": "VENDEDOR",
+    "SETOR": "COMERCIAL",
+    "LIDERANÇA": "NAO",
+    "INGRESSO NA MOOVZ": "05/2025",
+    "HOBBY": [
+      "VIDEOGAME",
+      "MUSICA",
+      "TATUAGEM",
+      "IGREJA"
+    ],
+    "FOTOS": "https://imgur.com/siJHrya.jpeg"
+  },
+  {
+    "NOME": "EDUARDA",
+    "NASCIMENTO": "21/01/2003",
+    "GENERO": "FEMININO",
+    "ALTURA": 1.61,
+    "TAMANHO DO CABELO": "LONGO",
+    "CARGO": "VENDEDOR",
+    "SETOR": "COMERCIAL",
+    "LIDERANÇA": "SIM",
+    "INGRESSO NA MOOVZ": "03/2024",
+    "HOBBY": [
+      "FOFOCA",
+      "PET"
+    ],
+    "FOTOS": "https://imgur.com/KRXpZZQ.jpeg"
+  },
+  {
+    "NOME": "MARIANA",
+    "NASCIMENTO": "02/10/2001",
+    "GENERO": "FEMININO",
+    "ALTURA": 1.67,
+    "TAMANHO DO CABELO": "LONGO",
+    "CARGO": "VENDEDOR",
+    "SETOR": "COMERCIAL",
+    "LIDERANÇA": "NAO",
+    "INGRESSO NA MOOVZ": "05/2025",
+    "HOBBY": [
+      "TRABALHAR",
+      "LIVROS",
+      "VIDEOGAME",
+      "SERIES"
+    ],
+    "FOTOS": null
+  },
+  {
+    "NOME": "KELLY",
+    "NASCIMENTO": "05/03/2003",
+    "GENERO": "FEMININO",
+    "ALTURA": 1.55,
+    "TAMANHO DO CABELO": "CURTO",
+    "CARGO": "VENDEDOR",
+    "SETOR": "COMERCIAL",
+    "LIDERANÇA": "NAO",
+    "INGRESSO NA MOOVZ": "12/2024",
+    "HOBBY": [
+      "COZINHAR",
+      "LIVROS",
+      "SERIES"
+    ],
+    "FOTOS": "https://imgur.com/zATjmxT.jpeg"
+  },
+  {
+    "NOME": "AISLA",
+    "NASCIMENTO": "04/09/2002",
+    "GENERO": "FEMININO",
+    "ALTURA": 1.75,
+    "TAMANHO DO CABELO": "LONGO",
+    "CARGO": "CS",
+    "SETOR": "CS",
+    "LIDERANÇA": "SIM",
+    "INGRESSO NA MOOVZ": "12/2024",
+    "HOBBY": [
+      "CARROS",
+      "VIDEOGAME"
+    ],
+    "FOTOS": "https://imgur.com/a4W8V5p.jpeg"
+  },
+  {
+    "NOME": "SANCLAIR",
+    "NASCIMENTO": "16/01/1977",
+    "GENERO": "MASCULINO",
+    "ALTURA": 1.69,
+    "TAMANHO DO CABELO": "CURTO",
+    "CARGO": "LOGISTICA",
+    "SETOR": "LOGISTICA",
+    "LIDERANÇA": "SIM",
+    "INGRESSO NA MOOVZ": "03/2025",
+    "HOBBY": [
+      "PLANTAS",
+      "FILMES"
+    ],
+    "FOTOS": "https://imgur.com/H6gz8bb.jpeg"
+  },
+  {
+    "NOME": "HANNAH",
+    "NASCIMENTO": "19/10/2006",
+    "GENERO": "FEMININO",
+    "ALTURA": 1.59,
+    "TAMANHO DO CABELO": "MEDIO",
+    "CARGO": "LOGISTICA",
+    "SETOR": "LOGISTICA",
+    "LIDERANÇA": "NAO",
+    "INGRESSO NA MOOVZ": "02/2025",
+    "HOBBY": [
+      "MUSICA",
+      "VIDEOGAME",
+      "COZINHAR",
+      "SERIES"
+    ],
+    "FOTOS": "https://imgur.com/QZ6qto6.jpeg"
+  },
+  {
+    "NOME": "MATHEUS",
+    "NASCIMENTO": "16/01/2001",
+    "GENERO": "MASCULINO",
+    "ALTURA": 1.77,
+    "TAMANHO DO CABELO": "CURTO",
+    "CARGO": "CS",
+    "SETOR": "SUPORTE",
+    "LIDERANÇA": "NAO",
+    "INGRESSO NA MOOVZ": "05/2025",
+    "HOBBY": [
+      "CERVEJA",
+      "ESPORTE",
+      "FILMES",
+      "SERIES"
+    ],
+    "FOTOS": "https://imgur.com/guPfFYS.jpeg"
+  },
+  {
+    "NOME": "JONAS",
+    "NASCIMENTO": "17/06/2001",
+    "GENERO": "MASCULINO",
+    "ALTURA": 1.74,
+    "TAMANHO DO CABELO": "CURTO",
+    "CARGO": "MARKETING",
+    "SETOR": "MARKETING",
+    "LIDERANÇA": "NAO",
+    "INGRESSO NA MOOVZ": "01/2024",
+    "HOBBY": [
+      "BEBER"
+    ],
+    "FOTOS": "https://imgur.com/HreGEcC.jpeg"
+  },
+  {
+    "NOME": "LUCAS",
+    "NASCIMENTO": "02/06/2000",
+    "GENERO": "MASCULINO",
+    "ALTURA": 1.75,
+    "TAMANHO DO CABELO": "MEDIO",
+    "CARGO": "MARKETING",
+    "SETOR": "MARKETING",
+    "LIDERANÇA": "SIM",
+    "INGRESSO NA MOOVZ": "02/2025",
+    "HOBBY": [
+      "MOTO",
+      "VIDEOGAME"
+    ],
+    "FOTOS": "https://imgur.com/CKwB24u.jpeg"
+  },
+  {
+    "NOME": "RENATO",
+    "NASCIMENTO": "28/02/2000",
+    "GENERO": "MASCULINO",
+    "ALTURA": 1.73,
+    "TAMANHO DO CABELO": "CURTO",
+    "CARGO": "GROWTH",
+    "SETOR": "GROWTH",
+    "LIDERANÇA": "SIM",
+    "INGRESSO NA MOOVZ": "08/2023",
+    "HOBBY": [
+      "TRABALHAR"
+    ],
+    "FOTOS": "https://imgur.com/tFpJ8wn.jpeg"
+  },
+  {
+    "NOME": "GIO",
+    "NASCIMENTO": "01/12/1993",
+    "GENERO": "MASCULINO",
+    "ALTURA": 1.71,
+    "TAMANHO DO CABELO": "CURTO",
+    "CARGO": "CEO",
+    "SETOR": "CEO",
+    "LIDERANÇA": "SIM",
+    "INGRESSO NA MOOVZ": "03/2023",
+    "HOBBY": [
+      "MÚSICA",
+      "ESPORTE",
+      "VIAJAR",
+      "VIDEOGAME",
+      "BOARDGAME"
+    ],
+    "FOTOS": "https://imgur.com/yVmXvej.jpeg"
+  },
+  {
+    "NOME": "FACILITO",
+    "NASCIMENTO": "31/07/1997",
+    "GENERO": "MASCULINO",
+    "ALTURA": 1.72,
+    "TAMANHO DO CABELO": "CURTO",
+    "CARGO": "VENDEDOR",
+    "SETOR": "COMERCIAL",
+    "LIDERANÇA": "NAO",
+    "INGRESSO NA MOOVZ": "06/2025",
+    "HOBBY": [
+      "PLANTAS",
+      "MUSICA",
+      "ANIME"
+    ],
+    "FOTOS": null
+  }
+]

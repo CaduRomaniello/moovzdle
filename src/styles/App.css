@@ -1,0 +1,592 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans';
+}
+
+.App {
+  text-align: center;
+  background-color: #181414;
+  background-image: url(../../public/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.App-header {
+  /* min-height: 100vh; */
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+  gap: 50px;
+}
+
+.App-header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 40px;
+  height: auto; /* Permite que a altura se ajuste automaticamente ao conteúdo */
+  width: 80%;
+  max-width: 450px;
+  background-color: #231F1F;
+  border-radius: 32px;
+  gap: 20px; /* Espaçamento de 20px entre os itens */
+}
+
+/* Logo e título */
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* margin-bottom: 20px; */
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
+  width: 30%;
+}
+
+.subtitle {
+  font-size: 22px;
+  margin: 5px 0 0;
+  text-align: left;
+}
+
+.suggestions-container {
+  position: absolute;
+  top: calc(100% + 5px); /* Movido 5px para baixo */
+  left: 0;
+  right: 0;
+  background-color: #383434;
+  border-radius: 0 0 10px 10px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 10;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.suggestion-item {
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.suggestion-item:hover {
+  background-color: #444;
+}
+
+.suggestion-name {
+  flex: 1;
+}
+
+.suggestion-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Input de texto */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  position: relative;
+}
+
+.input-label {
+  font-size: 14px;
+  /* margin-bottom: 5px; */
+  text-align: left;
+  color: #999;
+}
+
+.input-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.text-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  background-color: #383434;
+  border: none;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 16px;
+  height: 50px;
+}
+
+.text-input::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* Botão */
+.button-container {
+  width: 15%;
+}
+
+.action-button {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #F07E33;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.action-button:hover {
+  background-color: #e06a18;
+}
+
+.attempts-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  /* margin: 15px 0; */
+}
+
+.attempt-circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #F07E33; /* Cor laranja */
+  opacity: 0.7;
+}
+
+.attempt-circle.used {
+  opacity: 0.15;
+}
+
+.App-main {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 30px;
+}
+
+.caption {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  justify-content: space-between;
+  background-color: #231F1F;
+  border-radius: 32px;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+.palpites-text {
+  font-size: 22px;
+  color: #fff;
+  margin-right: 10px;
+  font-weight: bold; /* Adicionado para deixar o texto em negrito */
+  padding-left: 10px;
+}
+
+.legend-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px; /* Espaço entre os elementos */
+  padding-right: 10px;
+}
+
+.circle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-left: 10px; /* Espaço entre os círculos e textos */
+}
+
+.green {
+  background-color: #4CAF50;
+}
+
+.yellow {
+  background-color: #FFC107;
+}
+
+.red {
+  background-color: #F44336;
+}
+
+.guesses-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 60%;
+  max-width: 60%;
+  height: 100%;
+  gap: 20px;
+}
+
+.guess-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #231F1F;
+  border-radius: 32px;
+  padding: 0px;
+}
+
+.guess-item-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+}
+
+.guess-item-profile {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* Espaço entre a imagem e o texto */
+  padding-left: 40px;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Torna a imagem completamente circular */
+  object-fit: cover; /* Mantém a proporção da imagem sem distorcer */
+}
+
+.profile-name {
+  font-size: 22px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.guess-item-number {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.guess-number {
+  font-size: 22px;
+  color: #7B7B7B;
+  font-weight: bold;
+}
+
+.divider{
+  width: 90%;
+  height: 1px;
+  background-color: #2D2A2A;
+}
+
+.guess-item-content-container{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.info-content-container{
+  border-radius: 10px;
+  background-color: #12B76A;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.info-content-container p {
+  margin: 0;
+  font-size: 14px;
+  max-width: 100%;
+}
+
+.correct {
+  background-color: #12B76A; /* Verde para respostas corretas */
+}
+
+.incorrect {
+  background-color: #B42318; /* Vermelho para respostas incorretas */
+}
+
+.parcial{
+  background-color: #DBDB00; /* Amarelo para respostas parciais */
+}
+
+.arrow {
+  font-size: 24px;
+  margin-top: 5px;
+  font-weight: bold;
+  display: block;
+}
+
+.up {
+  color: white;
+}
+
+.down {
+  color: white;
+}
+
+.arrow-right {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 0;
+}
+
+.yesterday-employee p {
+  margin: 0 0;
+}
+
+.yesterday-employee p:nth-child(2) {
+  font-size: 20px;
+  color: #F07E33;
+}
+
+.yesterday-employee-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+  /* border: 2px solid #444; */
+}
+
+/* Estilos para o modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #2d2a2a;
+  border-radius: 15px;
+  padding: 30px;
+  width: 80%;
+  max-width: 400px;
+  position: relative;
+  animation: modalFadeIn 0.3s ease;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: none;
+  background: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #F07E33;
+}
+
+.modal-header h2 {
+  color: #F07E33;
+  text-align: center;
+  margin-top: 0;
+}
+
+.modal-body {
+  text-align: center;
+  color: #fff;
+}
+
+.modal-employee {
+  margin-top: 20px;
+}
+
+.modal-employee-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #F07E33;
+}
+
+.modal-employee-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px 0 0 0; /* top right bottom left */
+  color: #F07E33;
+}
+
+.countdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: #231F1F;
+  border-radius: 20px;
+  width: fit-content;
+  align-self: center;
+}
+
+.countdown-label {
+  font-size: 22px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.countdown-time {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F07E33;
+  font-family: monospace;
+}
+
+/* Estilos para o modal de resolução inadequada */
+.resolution-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000; /* Maior que qualquer outro elemento */
+}
+
+.resolution-modal-content {
+  background-color: #2d2a2a;
+  border-radius: 15px;
+  padding: 30px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.resolution-modal-header h2 {
+  color: #F07E33;
+  margin-top: 0;
+}
+
+.resolution-modal-body p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.resolution-icon {
+  margin: 20px 0;
+  font-size: 40px;
+}
+
+.resolution-icon-arrows {
+  display: inline-block;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.2); opacity: 0.7; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* Remova esta regra */
+.blur-background {
+  filter: blur(4px);
+  color: black;
+}
+
+/* E substitua por estas */
+.darkened-background {
+  opacity: 0.1; /* Isso escurece bastante o app quando um modal está ativo */
+  transition: opacity 0.3s ease;
+}
+
+/* Modifique os overlays para serem completamente pretos */
+.modal-overlay, .resolution-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.95); /* Quase completamente preto */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Não precisamos mais destas regras */
+/* 
+.modal-overlay, .resolution-modal-overlay {
+  filter: none;
+}
+
+.modal-content, .resolution-modal-content {
+  filter: none;
+} 
+*/

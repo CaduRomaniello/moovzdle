@@ -1,0 +1,541 @@
+[
+  {
+    "NOME": "cadu",
+    "NASCIMENTO": "05/10/2001",
+    "GENERO": "masculino",
+    "ALTURA": 180.0,
+    "CABELO": "curto",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "LIDERANÇA": "não",
+    "INGRESSO": "04/2025",
+    "HOBBY": [
+      "música",
+      "esportes",
+      "videogame",
+      "academia"
+    ],
+    "FOTOS": "https://imgur.com/DfQgmAZ.jpeg",
+    "DIA": 5.0,
+    "MES": 10.0,
+    "ANO": 2001.0
+  },
+  {
+    "NOME": "luan",
+    "NASCIMENTO": "19/01/1999",
+    "GENERO": "masculino",
+    "ALTURA": 187.0,
+    "CABELO": "longo",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "LIDERANÇA": "sim",
+    "INGRESSO": "03/2023",
+    "HOBBY": [
+      "música"
+    ],
+    "FOTOS": "https://imgur.com/DMy0PIU.jpeg",
+    "DIA": 19.0,
+    "MES": 1.0,
+    "ANO": 1999.0
+  },
+  {
+    "NOME": "pedro",
+    "NASCIMENTO": "18/06/2004",
+    "GENERO": "masculino",
+    "ALTURA": 180.0,
+    "CABELO": "curto",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "LIDERANÇA": "não",
+    "INGRESSO": "03/2025",
+    "HOBBY": [
+      "videogame",
+      "academia",
+      "música"
+    ],
+    "FOTOS": "https://imgur.com/Zf7zdQx.jpeg",
+    "DIA": 18.0,
+    "MES": 6.0,
+    "ANO": 2004.0
+  },
+  {
+    "NOME": "victor hugo",
+    "NASCIMENTO": "29/04/1999",
+    "GENERO": "masculino",
+    "ALTURA": 170.0,
+    "CABELO": "curto",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "LIDERANÇA": "não",
+    "INGRESSO": "03/2025",
+    "HOBBY": [
+      "videogame",
+      "música",
+      "leitura",
+      "escrita"
+    ],
+    "FOTOS": "https://imgur.com/lkMOqC8.jpeg",
+    "DIA": 29.0,
+    "MES": 4.0,
+    "ANO": 1999.0
+  },
+  {
+    "NOME": "caio",
+    "NASCIMENTO": "28/10/2003",
+    "GENERO": "masculino",
+    "ALTURA": 171.0,
+    "CABELO": "curto",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "LIDERANÇA": "não",
+    "INGRESSO": "07/2024",
+    "HOBBY": [
+      "música",
+      "videogame:tênis",
+      "esportes"
+    ],
+    "FOTOS": "https://imgur.com/VfuVdML.jpeg",
+    "DIA": 28.0,
+    "MES": 10.0,
+    "ANO": 2003.0
+  },
+  {
+    "NOME": "julia",
+    "NASCIMENTO": "21/08/2002",
+    "GENERO": "feminino",
+    "ALTURA": 155.0,
+    "CABELO": "medio",
+    "CARGO": "designer",
+    "SETOR": "produto",
+    "LIDERANÇA": "não",
+    "INGRESSO": "05/2025",
+    "HOBBY": [
+      "dança",
+      "arte",
+      "crochê",
+      "leitura",
+      "academia",
+      "fotografia"
+    ],
+    "FOTOS": "https://imgur.com/o0xjCnv.jpeg",
+    "DIA": 21.0,
+    "MES": 8.0,
+    "ANO": 2002.0
+  },
+  {
+    "NOME": "nicolle",
+    "NASCIMENTO": "15/08/2000",
+    "GENERO": "feminino",
+    "ALTURA": 158.0,
+    "CABELO": "medio",
+    "CARGO": "designer",
+    "SETOR": "produto",
+    "LIDERANÇA": "sim",
+    "INGRESSO": "10/2023",
+    "HOBBY": [
+      "arte",
+      "joalheria",
+      "fotografia"
+    ],
+    "FOTOS": "https://imgur.com/JDvevrL.jpeg",
+    "DIA": 15.0,
+    "MES": 8.0,
+    "ANO": 2000.0
+  },
+  {
+    "NOME": "joão victor",
+    "NASCIMENTO": "13/04/2001",
+    "GENERO": "masculino",
+    "ALTURA": 179.0,
+    "CABELO": "medio",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "LIDERANÇA": "não",
+    "INGRESSO": "04/2025",
+    "HOBBY": [
+      "videogame",
+      "arte",
+      "academia"
+    ],
+    "FOTOS": "https://imgur.com/BUPfU3R.jpeg",
+    "DIA": 13.0,
+    "MES": 4.0,
+    "ANO": 2001.0
+  },
+  {
+    "NOME": "matheus d",
+    "NASCIMENTO": "04/12/2003",
+    "GENERO": "masculino",
+    "ALTURA": 179.0,
+    "CABELO": "longo",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "LIDERANÇA": "não",
+    "INGRESSO": "04/2025",
+    "HOBBY": [
+      "videogame",
+      "anime",
+      "leitura"
+    ],
+    "FOTOS": "https://imgur.com/wZHwPed.jpeg",
+    "DIA": 4.0,
+    "MES": 12.0,
+    "ANO": 2003.0
+  },
+  {
+    "NOME": "jorge",
+    "NASCIMENTO": "02/09/1994",
+    "GENERO": "masculino",
+    "ALTURA": 168.0,
+    "CABELO": "curto",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "LIDERANÇA": "não",
+    "INGRESSO": "03/2025",
+    "HOBBY": [
+      "esportes",
+      "academia",
+      "música",
+      "f1"
+    ],
+    "FOTOS": "https://imgur.com/98jJVCr.jpeg",
+    "DIA": 2.0,
+    "MES": 9.0,
+    "ANO": 1994.0
+  },
+  {
+    "NOME": "joa",
+    "NASCIMENTO": "28/05/2001",
+    "GENERO": "masculino",
+    "ALTURA": 179.0,
+    "CABELO": "curto",
+    "CARGO": "designer",
+    "SETOR": "produto",
+    "LIDERANÇA": "não",
+    "INGRESSO": "04/2025",
+    "HOBBY": [
+      "videogame",
+      "música"
+    ],
+    "FOTOS": "https://marketplace.canva.com/A5alg/MAESXCA5alg/1/tl/canva-user-icon-MAESXCA5alg.png",
+    "DIA": 28.0,
+    "MES": 5.0,
+    "ANO": 2001.0
+  },
+  {
+    "NOME": "diogo",
+    "NASCIMENTO": "26/07/2002",
+    "GENERO": "masculino",
+    "ALTURA": 190.0,
+    "CABELO": "curto",
+    "CARGO": "vendedor",
+    "SETOR": "comercial",
+    "LIDERANÇA": "não",
+    "INGRESSO": "05/2025",
+    "HOBBY": [
+      "videogame",
+      "música",
+      "tatuagem",
+      "igreja"
+    ],
+    "FOTOS": "https://imgur.com/siJHrya.jpeg",
+    "DIA": 26.0,
+    "MES": 7.0,
+    "ANO": 2002.0
+  },
+  {
+    "NOME": "eduarda",
+    "NASCIMENTO": "21/01/2003",
+    "GENERO": "feminino",
+    "ALTURA": 161.0,
+    "CABELO": "longo",
+    "CARGO": "vendedor",
+    "SETOR": "comercial",
+    "LIDERANÇA": "sim",
+    "INGRESSO": "03/2024",
+    "HOBBY": [
+      "fofoca"
+    ],
+    "FOTOS": "https://imgur.com/KRXpZZQ.jpeg",
+    "DIA": 21.0,
+    "MES": 1.0,
+    "ANO": 2003.0
+  },
+  {
+    "NOME": "mariana",
+    "NASCIMENTO": "02/10/2001",
+    "GENERO": "feminino",
+    "ALTURA": 167.0,
+    "CABELO": "longo",
+    "CARGO": "vendedor",
+    "SETOR": "comercial",
+    "LIDERANÇA": "não",
+    "INGRESSO": "05/2025",
+    "HOBBY": [
+      "trabalhar",
+      "leitura",
+      "videogame",
+      "séries"
+    ],
+    "FOTOS": "https://marketplace.canva.com/A5alg/MAESXCA5alg/1/tl/canva-user-icon-MAESXCA5alg.png",
+    "DIA": 2.0,
+    "MES": 10.0,
+    "ANO": 2001.0
+  },
+  {
+    "NOME": "kelly",
+    "NASCIMENTO": "05/03/2003",
+    "GENERO": "feminino",
+    "ALTURA": 155.0,
+    "CABELO": "curto",
+    "CARGO": "vendedor",
+    "SETOR": "comercial",
+    "LIDERANÇA": "não",
+    "INGRESSO": "12/2024",
+    "HOBBY": [
+      "cozinhar",
+      "leitura",
+      "séries"
+    ],
+    "FOTOS": "https://imgur.com/zATjmxT.jpeg",
+    "DIA": 5.0,
+    "MES": 3.0,
+    "ANO": 2003.0
+  },
+  {
+    "NOME": "aisla",
+    "NASCIMENTO": "04/09/2002",
+    "GENERO": "feminino",
+    "ALTURA": 175.0,
+    "CABELO": "longo",
+    "CARGO": "cs",
+    "SETOR": "cs",
+    "LIDERANÇA": "sim",
+    "INGRESSO": "12/2024",
+    "HOBBY": [
+      "carros",
+      "videogame"
+    ],
+    "FOTOS": "https://imgur.com/a4W8V5p.jpeg",
+    "DIA": 4.0,
+    "MES": 9.0,
+    "ANO": 2002.0
+  },
+  {
+    "NOME": "sanclair",
+    "NASCIMENTO": "16/01/1977",
+    "GENERO": "masculino",
+    "ALTURA": 169.0,
+    "CABELO": "curto",
+    "CARGO": "logistica",
+    "SETOR": "logistica",
+    "LIDERANÇA": "sim",
+    "INGRESSO": "03/2025",
+    "HOBBY": [
+      "plantas",
+      "filmes"
+    ],
+    "FOTOS": "https://imgur.com/H6gz8bb.jpeg",
+    "DIA": 16.0,
+    "MES": 1.0,
+    "ANO": 1977.0
+  },
+  {
+    "NOME": "hannah",
+    "NASCIMENTO": "19/10/2006",
+    "GENERO": "feminino",
+    "ALTURA": 159.0,
+    "CABELO": "medio",
+    "CARGO": "logistica",
+    "SETOR": "logistica",
+    "LIDERANÇA": "não",
+    "INGRESSO": "02/2025",
+    "HOBBY": [
+      "instrumentos",
+      "videogame",
+      "cozinhar",
+      "séries"
+    ],
+    "FOTOS": "https://imgur.com/QZ6qto6.jpeg",
+    "DIA": 19.0,
+    "MES": 10.0,
+    "ANO": 2006.0
+  },
+  {
+    "NOME": "matheus",
+    "NASCIMENTO": "16/01/2001",
+    "GENERO": "masculino",
+    "ALTURA": 177.0,
+    "CABELO": "curto",
+    "CARGO": "cs",
+    "SETOR": "suporte",
+    "LIDERANÇA": "não",
+    "INGRESSO": "05/2025",
+    "HOBBY": [
+      "cerveja",
+      "esportes",
+      "filmes",
+      "séries"
+    ],
+    "FOTOS": "https://imgur.com/guPfFYS.jpeg",
+    "DIA": 16.0,
+    "MES": 1.0,
+    "ANO": 2001.0
+  },
+  {
+    "NOME": "jonas",
+    "NASCIMENTO": "17/06/2001",
+    "GENERO": "masculino",
+    "ALTURA": 174.0,
+    "CABELO": "curto",
+    "CARGO": "marketing",
+    "SETOR": "marketing",
+    "LIDERANÇA": "não",
+    "INGRESSO": "01/2024",
+    "HOBBY": [
+      "beber",
+      ""
+    ],
+    "FOTOS": "https://imgur.com/HreGEcC.jpeg",
+    "DIA": 17.0,
+    "MES": 6.0,
+    "ANO": 2001.0
+  },
+  {
+    "NOME": "lucas",
+    "NASCIMENTO": "02/06/2000",
+    "GENERO": "masculino",
+    "ALTURA": 175.0,
+    "CABELO": "medio",
+    "CARGO": "marketing",
+    "SETOR": "marketing",
+    "LIDERANÇA": "sim",
+    "INGRESSO": "02/2025",
+    "HOBBY": [
+      "moto",
+      "videogame"
+    ],
+    "FOTOS": "https://imgur.com/CKwB24u.jpeg",
+    "DIA": 2.0,
+    "MES": 6.0,
+    "ANO": 2000.0
+  },
+  {
+    "NOME": "renato",
+    "NASCIMENTO": "28/02/2000",
+    "GENERO": "masculino",
+    "ALTURA": 173.0,
+    "CABELO": "curto",
+    "CARGO": "growth",
+    "SETOR": "growth",
+    "LIDERANÇA": "sim",
+    "INGRESSO": "08/2023",
+    "HOBBY": [
+      "trabalhar"
+    ],
+    "FOTOS": "https://imgur.com/tFpJ8wn.jpeg",
+    "DIA": 28.0,
+    "MES": 2.0,
+    "ANO": 2000.0
+  },
+  {
+    "NOME": "gio",
+    "NASCIMENTO": "01/12/1993",
+    "GENERO": "masculino",
+    "ALTURA": 171.0,
+    "CABELO": "curto",
+    "CARGO": "ceo",
+    "SETOR": "ceo",
+    "LIDERANÇA": "sim",
+    "INGRESSO": "03/2023",
+    "HOBBY": [
+      "música",
+      "esporte",
+      "viajar",
+      "videogame",
+      "boardgame"
+    ],
+    "FOTOS": "https://imgur.com/yVmXvej.jpeg",
+    "DIA": 1.0,
+    "MES": 12.0,
+    "ANO": 1993.0
+  },
+  {
+    "NOME": "facilito",
+    "NASCIMENTO": "31/07/1997",
+    "GENERO": "masculino",
+    "ALTURA": 172.0,
+    "CABELO": "curto",
+    "CARGO": "vendedor",
+    "SETOR": "comercial",
+    "LIDERANÇA": "não",
+    "INGRESSO": "06/2025",
+    "HOBBY": [
+      "plantas",
+      "instrumentos",
+      "anime"
+    ],
+    "FOTOS": "https://marketplace.canva.com/A5alg/MAESXCA5alg/1/tl/canva-user-icon-MAESXCA5alg.png",
+    "DIA": 31.0,
+    "MES": 7.0,
+    "ANO": 1997.0
+  },
+  {
+    "NOME": "iisabele",
+    "NASCIMENTO": "16/07/2001",
+    "GENERO": "feminino",
+    "ALTURA": 160,
+    "CABELO": "longo",
+    "CARGO": "designer",
+    "SETOR": "marketing",
+    "LIDERANÇA": "não",
+    "INGRESSO": "07/2025",
+    "HOBBY": [
+      "crochê",
+      "videogame",
+      "ler",
+      "desenho",
+      "viajar",
+      "anime"
+    ],
+    "FOTOS": "https://marketplace.canva.com/A5alg/MAESXCA5alg/1/tl/canva-user-icon-MAESXCA5alg.png",
+    "DIA": 16.0,
+    "MES": 72001.0,
+    "ANO": null
+  },
+  {
+    "NOME": "antonio pedro",
+    "NASCIMENTO": "26/07/2025",
+    "GENERO": "masculino",
+    "ALTURA": 175.0,
+    "CABELO": "curto",
+    "CARGO": "suporte",
+    "SETOR": "cs",
+    "LIDERANÇA": "não",
+    "INGRESSO": "08/2025",
+    "HOBBY": [],
+    "FOTOS": "https://marketplace.canva.com/A5alg/MAESXCA5alg/1/tl/canva-user-icon-MAESXCA5alg.png",
+    "DIA": 26.0,
+    "MES": 7.0,
+    "ANO": 2025.0
+  },
+  {
+    "NOME": "kamilla rodrigues",
+    "NASCIMENTO": "29/10/2001",
+    "GENERO": "feminino",
+    "ALTURA": 157.0,
+    "CABELO": "longo",
+    "CARGO": "vendedor",
+    "SETOR": "comercial",
+    "LIDERANÇA": "não",
+    "INGRESSO": "08/2025",
+    "HOBBY": [
+      "leitura",
+      "artesanato"
+    ],
+    "FOTOS": "https://marketplace.canva.com/A5alg/MAESXCA5alg/1/tl/canva-user-icon-MAESXCA5alg.png",
+    "DIA": 29.0,
+    "MES": 10.0,
+    "ANO": 2001.0
+  }
+]
