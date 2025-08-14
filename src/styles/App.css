@@ -38,8 +38,8 @@ body, html {
   align-items: stretch;
   padding: 40px;
   height: auto; /* Permite que a altura se ajuste automaticamente ao conteúdo */
-  /* width: 80%;
-  max-width: 450px; */
+  /* width: 80%; */
+  /* max-width: 450px; */
   background-color: #231F1F;
   border-radius: 32px;
   gap: 20px; /* Espaçamento de 20px entre os itens */
@@ -602,7 +602,7 @@ body, html {
 .caption,
 .guesses-container {
   width: 90%;          /* Largura flexível para se adaptar a telas menores */
-  max-width: 800px;    /* Largura máxima para não ficar largo demais em telas grandes */
+  max-width: 1200px;    /* Largura máxima para não ficar largo demais em telas grandes */
   
   /* As regras abaixo garantem a centralização, complementando o flex do container pai */
   margin-left: auto;
