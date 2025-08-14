@@ -38,6 +38,7 @@ body, html {
   align-items: stretch;
   padding: 40px;
   height: auto; /* Permite que a altura se ajuste automaticamente ao conteúdo */
+  box-sizing: border-box;
   /* width: 80%; */
   /* max-width: 450px; */
   background-color: #231F1F;
@@ -609,7 +610,8 @@ body, html {
   margin-right: auto;
   
   /* Zera min-width para evitar conflitos */
-  min-width: 0; 
+  min-width: 0;
+   
 }
 
 /* ==================== MEDIA QUERIES RESPONSIVAS ==================== */
