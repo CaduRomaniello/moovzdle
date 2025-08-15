@@ -46,3 +46,11 @@
     margin: 5px 0 0;
     text-align: left;
 }
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+}
