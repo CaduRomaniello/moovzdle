@@ -1,5 +1,5 @@
 import GuessItem from './GuessItem';
-import './styles/App.css';
+// import './styles/App.css';
 import React, { useState, useEffect } from 'react';
 import employeesData from './data/data.json';
 
