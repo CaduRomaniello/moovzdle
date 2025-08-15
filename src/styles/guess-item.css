@@ -8,6 +8,7 @@
     background-color: #231F1F;
     border-radius: 32px;
     padding: 0px;
+    overflow: visible;
 }
 
 .guess-item-header {
@@ -72,8 +73,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 20px;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    scroll-snap-align: start;
 }
 
 .info-content {
@@ -129,4 +135,32 @@
 
 .down {
     color: white;
+}
+
+@media screen and (max-width: 1200px) {
+.guesses-item-content-container {
+    flex-direction: row;
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .guess-item-content-container {
+        padding: 15px 20px 25px;
+        gap: 15px;
+        /* flex-wrap: wrap; */
+      }
+}
+@media screen and (max-width: 480px) {
+    .guess-item-content-container {
+        padding: 12px 15px 20px;
+        gap: 10px;
+        /* flex-wrap: wrap; */
+      }
+}
+@media screen and (max-width: 360px) {
+    .guess-item-content-container {
+        gap: 8px;
+        flex-wrap: wrap;
+      }
 }
