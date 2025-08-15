@@ -1,0 +1,52 @@
+.caption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    justify-content: space-between;
+    background-color: #231F1F;
+    border-radius: 32px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    color: #fff
+}
+
+.caption-title {
+    font-size: 22px;
+    color: #fff;
+    margin-right: 10px;
+    font-weight: bold;
+    /* Adicionado para deixar o texto em negrito */
+    padding-left: 10px;
+}
+
+.legend-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    /* Espaço entre os elementos */
+    padding-right: 10px;
+}
+
+.circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-left: 10px;
+    /* Espaço entre os círculos e textos */
+}
+
+.green {
+    background-color: #4CAF50;
+}
+
+.yellow {
+    background-color: #FFC107;
+}
+
+.red {
+    background-color: #F44336;
+}

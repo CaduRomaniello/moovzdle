@@ -1,0 +1,549 @@
+[
+  {
+    "NOME": "cadu romaniello",
+    "NASCIMENTO": "05/10/2001",
+    "GENERO": "masculino",
+    "ALTURA": 180,
+    "CABELO": "curto",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "INGRESSO": "03/2025",
+    "HOBBY": [
+      "música",
+      "esportes",
+      "videogame"
+    ],
+    "FOTOS": "https://imgur.com/DfQgmAZ.jpeg",
+    "DIA": 5,
+    "MES": 10,
+    "ANO": 2001,
+    "IDADE": 23
+  },
+  {
+    "NOME": "luan dutra",
+    "NASCIMENTO": "19/01/1999",
+    "GENERO": "masculino",
+    "ALTURA": 187,
+    "CABELO": "longo",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "INGRESSO": "03/2023",
+    "HOBBY": [
+      "música"
+    ],
+    "FOTOS": "https://imgur.com/DMy0PIU.jpeg",
+    "DIA": 19,
+    "MES": 1,
+    "ANO": 1999,
+    "IDADE": 26
+  },
+  {
+    "NOME": "pedro ferreira",
+    "NASCIMENTO": "18/06/2004",
+    "GENERO": "masculino",
+    "ALTURA": 180,
+    "CABELO": "curto",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "INGRESSO": "03/2025",
+    "HOBBY": [
+      "videogame",
+      "academia",
+      "música"
+    ],
+    "FOTOS": "https://imgur.com/Zf7zdQx.jpeg",
+    "DIA": 18,
+    "MES": 6,
+    "ANO": 2004,
+    "IDADE": 21
+  },
+  {
+    "NOME": "victor hugo",
+    "NASCIMENTO": "29/04/1999",
+    "GENERO": "masculino",
+    "ALTURA": 170,
+    "CABELO": "curto",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "INGRESSO": "03/2025",
+    "HOBBY": [
+      "videogame",
+      "música",
+      "leitura"
+    ],
+    "FOTOS": "https://imgur.com/lkMOqC8.jpeg",
+    "DIA": 29,
+    "MES": 4,
+    "ANO": 1999,
+    "IDADE": 26
+  },
+  {
+    "NOME": "caio araújo",
+    "NASCIMENTO": "28/10/2003",
+    "GENERO": "masculino",
+    "ALTURA": 171,
+    "CABELO": "curto",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "INGRESSO": "07/2024",
+    "HOBBY": [
+      "música",
+      "videogame",
+      "tênis"
+    ],
+    "FOTOS": "https://imgur.com/VfuVdML.jpeg",
+    "DIA": 28,
+    "MES": 10,
+    "ANO": 2003,
+    "IDADE": 21
+  },
+  {
+    "NOME": "julia cavalcanti",
+    "NASCIMENTO": "21/08/2002",
+    "GENERO": "feminino",
+    "ALTURA": 155,
+    "CABELO": "medio",
+    "CARGO": "designer",
+    "SETOR": "produto",
+    "INGRESSO": "05/2025",
+    "HOBBY": [
+      "dança",
+      "arte",
+      "crochê"
+    ],
+    "FOTOS": "https://imgur.com/o0xjCnv.jpeg",
+    "DIA": 21,
+    "MES": 8,
+    "ANO": 2002,
+    "IDADE": 22
+  },
+  {
+    "NOME": "nicolle ruanni",
+    "NASCIMENTO": "15/08/2000",
+    "GENERO": "feminino",
+    "ALTURA": 158,
+    "CABELO": "medio",
+    "CARGO": "designer",
+    "SETOR": "produto",
+    "INGRESSO": "10/2023",
+    "HOBBY": [
+      "arte",
+      "joalheria",
+      "fotografia"
+    ],
+    "FOTOS": "https://imgur.com/JDvevrL.jpeg",
+    "DIA": 15,
+    "MES": 8,
+    "ANO": 2000,
+    "IDADE": 25
+  },
+  {
+    "NOME": "joão victor chaves",
+    "NASCIMENTO": "13/04/2001",
+    "GENERO": "masculino",
+    "ALTURA": 179,
+    "CABELO": "medio",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "INGRESSO": "04/2025",
+    "HOBBY": [
+      "videogame",
+      "arte",
+      "academia"
+    ],
+    "FOTOS": "https://imgur.com/BUPfU3R.jpeg",
+    "DIA": 13,
+    "MES": 4,
+    "ANO": 2001,
+    "IDADE": 24
+  },
+  {
+    "NOME": "matheus veloso",
+    "NASCIMENTO": "04/12/2003",
+    "GENERO": "masculino",
+    "ALTURA": 179,
+    "CABELO": "longo",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "INGRESSO": "04/2025",
+    "HOBBY": [
+      "videogame",
+      "anime",
+      "leitura"
+    ],
+    "FOTOS": "https://imgur.com/wZHwPed.jpeg",
+    "DIA": 4,
+    "MES": 12,
+    "ANO": 2003,
+    "IDADE": 21
+  },
+  {
+    "NOME": "jorge machado",
+    "NASCIMENTO": "02/09/1994",
+    "GENERO": "masculino",
+    "ALTURA": 168,
+    "CABELO": "curto",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "INGRESSO": "03/2025",
+    "HOBBY": [
+      "esportes",
+      "academia",
+      "música"
+    ],
+    "FOTOS": "https://imgur.com/98jJVCr.jpeg",
+    "DIA": 2,
+    "MES": 9,
+    "ANO": 1994,
+    "IDADE": 30
+  },
+  {
+    "NOME": "joa",
+    "NASCIMENTO": "28/05/2001",
+    "GENERO": "masculino",
+    "ALTURA": 179,
+    "CABELO": "curto",
+    "CARGO": "designer",
+    "SETOR": "produto",
+    "INGRESSO": "04/2025",
+    "HOBBY": [
+      "videogame",
+      "música"
+    ],
+    "FOTOS": "https://imgur.com/a/hQBjHSA",
+    "DIA": 28,
+    "MES": 5,
+    "ANO": 2001,
+    "IDADE": 24
+  },
+  {
+    "NOME": "wanessa julio umbelino",
+    "NASCIMENTO": "06/09/2002",
+    "GENERO": "feminino",
+    "ALTURA": 148,
+    "CABELO": "longo",
+    "CARGO": "vendedor",
+    "SETOR": "comercial",
+    "INGRESSO": "01/08/2024",
+    "HOBBY": [
+      "música"
+    ],
+    "FOTOS": "https://imgur.com/H3H6Ob1.jpeg",
+    "DIA": 6,
+    "MES": 9,
+    "ANO": 2002,
+    "IDADE": 22
+  },
+  {
+    "NOME": "diogo lima ",
+    "NASCIMENTO": "26/07/2002",
+    "GENERO": "masculino",
+    "ALTURA": 190,
+    "CABELO": "curto",
+    "CARGO": "vendedor",
+    "SETOR": "comercial",
+    "INGRESSO": "05/2025",
+    "HOBBY": [
+      "videogame",
+      "música",
+      "tatuagem"
+    ],
+    "FOTOS": "https://imgur.com/siJHrya.jpeg",
+    "DIA": 26,
+    "MES": 7,
+    "ANO": 2002,
+    "IDADE": 23
+  },
+  {
+    "NOME": "eduarda elias ",
+    "NASCIMENTO": "21/01/2003",
+    "GENERO": "feminino",
+    "ALTURA": 161,
+    "CABELO": "longo",
+    "CARGO": "vendedor",
+    "SETOR": "comercial",
+    "INGRESSO": "03/2024",
+    "HOBBY": [
+      "videogame",
+      "musica",
+      "pets"
+    ],
+    "FOTOS": "https://imgur.com/KRXpZZQ.jpeg",
+    "DIA": 21,
+    "MES": 1,
+    "ANO": 2003,
+    "IDADE": 22
+  },
+  {
+    "NOME": "mariana alves",
+    "NASCIMENTO": "02/10/2001",
+    "GENERO": "feminino",
+    "ALTURA": 167,
+    "CABELO": "longo",
+    "CARGO": "vendedor",
+    "SETOR": "comercial",
+    "INGRESSO": "04/2025",
+    "HOBBY": [
+      "trabalhar",
+      "leitura",
+      "videogame"
+    ],
+    "FOTOS": "https://marketplace.canva.com/A5alg/MAESXCA5alg/1/tl/canva-user-icon-MAESXCA5alg.png",
+    "DIA": 2,
+    "MES": 10,
+    "ANO": 2001,
+    "IDADE": 23
+  },
+  {
+    "NOME": "kelly barbosa ",
+    "NASCIMENTO": "05/03/2003",
+    "GENERO": "feminino",
+    "ALTURA": 155,
+    "CABELO": "curto",
+    "CARGO": "pós-venda",
+    "SETOR": "atendimento",
+    "INGRESSO": "12/2024",
+    "HOBBY": [
+      "cozinhar",
+      "leitura",
+      "séries"
+    ],
+    "FOTOS": "https://imgur.com/zATjmxT.jpeg",
+    "DIA": 5,
+    "MES": 3,
+    "ANO": 2003,
+    "IDADE": 22
+  },
+  {
+    "NOME": "aisla ferreira",
+    "NASCIMENTO": "04/09/2002",
+    "GENERO": "feminino",
+    "ALTURA": 175,
+    "CABELO": "longo",
+    "CARGO": "cs",
+    "SETOR": "atendimento",
+    "INGRESSO": "12/2024",
+    "HOBBY": [
+      "carros",
+      "videogame"
+    ],
+    "FOTOS": "https://imgur.com/a4W8V5p.jpeg",
+    "DIA": 4,
+    "MES": 9,
+    "ANO": 2002,
+    "IDADE": 22
+  },
+  {
+    "NOME": "sancler almeida",
+    "NASCIMENTO": "16/01/1977",
+    "GENERO": "masculino",
+    "ALTURA": 169,
+    "CABELO": "curto",
+    "CARGO": "logistica",
+    "SETOR": "logistica",
+    "INGRESSO": "03/2025",
+    "HOBBY": [
+      "plantas",
+      "filmes"
+    ],
+    "FOTOS": "https://imgur.com/H6gz8bb.jpeg",
+    "DIA": 16,
+    "MES": 1,
+    "ANO": 1977,
+    "IDADE": 48
+  },
+  {
+    "NOME": "hannah",
+    "NASCIMENTO": "19/10/2006",
+    "GENERO": "feminino",
+    "ALTURA": 159,
+    "CABELO": "medio",
+    "CARGO": "logistica",
+    "SETOR": "logistica",
+    "INGRESSO": "02/2025",
+    "HOBBY": [
+      "instrumentos",
+      "videogame",
+      "cozinhar"
+    ],
+    "FOTOS": "https://imgur.com/QZ6qto6.jpeg",
+    "DIA": 19,
+    "MES": 10,
+    "ANO": 2006,
+    "IDADE": 18
+  },
+  {
+    "NOME": "matheus",
+    "NASCIMENTO": "16/01/2001",
+    "GENERO": "masculino",
+    "ALTURA": 177,
+    "CABELO": "curto",
+    "CARGO": "implantação",
+    "SETOR": "atendimento",
+    "INGRESSO": "05/2025",
+    "HOBBY": [
+      "cerveja",
+      "esportes",
+      "filmes"
+    ],
+    "FOTOS": "https://imgur.com/guPfFYS.jpeg",
+    "DIA": 16,
+    "MES": 1,
+    "ANO": 2001,
+    "IDADE": 24
+  },
+  {
+    "NOME": "jonas reis ",
+    "NASCIMENTO": "17/06/2001",
+    "GENERO": "masculino",
+    "ALTURA": 174,
+    "CABELO": "curto",
+    "CARGO": "marketing",
+    "SETOR": "marketing",
+    "INGRESSO": "01/2024",
+    "HOBBY": [
+      "beber"
+    ],
+    "FOTOS": "https://imgur.com/HreGEcC.jpeg",
+    "DIA": 17,
+    "MES": 6,
+    "ANO": 2001,
+    "IDADE": 24
+  },
+  {
+    "NOME": "lucas",
+    "NASCIMENTO": "02/06/2000",
+    "GENERO": "masculino",
+    "ALTURA": 175,
+    "CABELO": "medio",
+    "CARGO": "marketing",
+    "SETOR": "marketing",
+    "INGRESSO": "02/2025",
+    "HOBBY": [
+      "moto",
+      "videogame"
+    ],
+    "FOTOS": "https://imgur.com/CKwB24u.jpeg",
+    "DIA": 2,
+    "MES": 6,
+    "ANO": 2000,
+    "IDADE": 25
+  },
+  {
+    "NOME": "renato",
+    "NASCIMENTO": "28/02/2000",
+    "GENERO": "masculino",
+    "ALTURA": 173,
+    "CABELO": "curto",
+    "CARGO": "growth",
+    "SETOR": "growth",
+    "INGRESSO": "08/2023",
+    "HOBBY": [
+      "trabalhar"
+    ],
+    "FOTOS": "https://imgur.com/tFpJ8wn.jpeg",
+    "DIA": 28,
+    "MES": 2,
+    "ANO": 2000,
+    "IDADE": 25
+  },
+  {
+    "NOME": "giovanne ramos ",
+    "NASCIMENTO": "01/12/1993",
+    "GENERO": "masculino",
+    "ALTURA": 171,
+    "CABELO": "curto",
+    "CARGO": "ceo",
+    "SETOR": "ceo",
+    "INGRESSO": "03/2023",
+    "HOBBY": [
+      "música",
+      "esporte",
+      "viajar"
+    ],
+    "FOTOS": "https://imgur.com/yVmXvej.jpeg",
+    "DIA": 1,
+    "MES": 12,
+    "ANO": 1993,
+    "IDADE": 31
+  },
+  {
+    "NOME": "matheus dourado",
+    "NASCIMENTO": "31/07/1997",
+    "GENERO": "masculino",
+    "ALTURA": 172,
+    "CABELO": "curto",
+    "CARGO": "vendedor",
+    "SETOR": "comercial",
+    "INGRESSO": "07/2025",
+    "HOBBY": [
+      "plantas",
+      "instrumentos",
+      "anime"
+    ],
+    "FOTOS": "https://imgur.com/oqxIbBO",
+    "DIA": 31,
+    "MES": 7,
+    "ANO": 1997,
+    "IDADE": 28
+  },
+  {
+    "NOME": "iisabele rezende",
+    "NASCIMENTO": "16/07/2001",
+    "GENERO": "feminino",
+    "ALTURA": 171,
+    "CABELO": "longo",
+    "CARGO": "designer",
+    "SETOR": "marketing",
+    "INGRESSO": "07/2025",
+    "HOBBY": [
+      "crochê",
+      "videogame",
+      "ler"
+    ],
+    "FOTOS": "https://imgur.com/7eaUzji",
+    "DIA": 16,
+    "MES": 7,
+    "ANO": 2001,
+    "IDADE": 24
+  },
+  {
+    "NOME": "antonio pedro",
+    "NASCIMENTO": "26/07/2025",
+    "GENERO": "masculino",
+    "ALTURA": 175,
+    "CABELO": "curto",
+    "CARGO": "suporte",
+    "SETOR": "atendimento",
+    "INGRESSO": "08/2025",
+    "HOBBY": [
+      "carros",
+      "esportes",
+      "cardgame"
+    ],
+    "FOTOS": "https://imgur.com/BUmDUpW",
+    "DIA": 26,
+    "MES": 7,
+    "ANO": 2025,
+    "IDADE": 0
+  },
+  {
+    "NOME": "kamilla rodrigues",
+    "NASCIMENTO": "29/10/2001",
+    "GENERO": "feminino",
+    "ALTURA": 157,
+    "CABELO": "longo",
+    "CARGO": "vendedor",
+    "SETOR": "comercial",
+    "INGRESSO": "08/2025",
+    "HOBBY": [
+      "leitura",
+      "artesanato"
+    ],
+    "FOTOS": "https://imgur.com/0jeSihf",
+    "DIA": 29,
+    "MES": 10,
+    "ANO": 2001,
+    "IDADE": 23
+  }
+]
