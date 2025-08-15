@@ -1,55 +1,10 @@
-import GuessItem from './guessItem';
+import GuessItem from './GuessItem';
 import './styles/App.css';
 import React, { useState, useEffect } from 'react';
-import employeesData from './data/classic2.json';
-// import logo from './logo.svg'; // Certifique-se que o caminho está correto
-
-// const correctAnswer = {
-//   "NOME": "CADU",
-//   "NASCIMENTO": "05/10/2001",
-//   "GENERO": "MASCULINO",
-//   "ALTURA": 1.8,
-//   "CABELO": "CURTO",
-//   "CARGO": "DEV",
-//   "SETOR": "PRODUTO",
-//   "LIDERANÇA": "NAO",
-//   "INGRESSO": "04/2025",
-//   "HOBBY": [
-//     "MUSICA",
-//     "ESPORTES",
-//     "VIDEOGAME",
-//     "ACADEMIA"
-//   ],
-//   "FOTOS": "https://imgur.com/DfQgmAZ.jpeg",
-//   "DIA": "05",
-//   "MES": "10",
-//   "ANO": "2001"
-// };
-
-// const guess = {
-//   "NOME": "CADU",
-//   "NASCIMENTO": "05/10/2001",
-//   "GENERO": "MASCULINO",
-//   "ALTURA": 1.8,
-//   "CABELO": "CURTO",
-//   "CARGO": "DEV",
-//   "SETOR": "PRODUTO",
-//   "LIDERANÇA": "NAO",
-//   "INGRESSO": "04/2025",
-//   "HOBBY": [
-//     "MUSICA",
-//     "ESPORTES",
-//     "VIDEOGAME",
-//     "ACADEMIA"
-//   ],
-//   "FOTOS": "https://imgur.com/DfQgmAZ.jpeg",
-//   "DIA": "05",
-//   "MES": "10",
-//   "ANO": "2001"
-// };
+import employeesData from './data/data.json';
 
 const correctAnswer = {}
-// const guesse = {}
+// const guess = {}
 
 function toTitleCase(str) {
   if (!str) return str;

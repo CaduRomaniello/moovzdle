@@ -1,0 +1,48 @@
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+    width: 30%;
+}
+
+.header {
+    /* min-height: 100vh; */
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* font-size: calc(10px + 2vmin); */
+    color: white;
+    gap: 50px;
+    width: 100vw;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 40px;
+    height: auto;
+    /* Permite que a altura se ajuste automaticamente ao conteúdo */
+    width: 80%;
+    max-width: 450px;
+    background-color: #231F1F;
+    border-radius: 32px;
+    gap: 20px;
+    /* Espaçamento de 20px entre os itens */
+}
+
+.subtitle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin-bottom: 20px; */
+}
+
+.subtitle {
+    font-size: 22px;
+    margin: 5px 0 0;
+    text-align: left;
+}

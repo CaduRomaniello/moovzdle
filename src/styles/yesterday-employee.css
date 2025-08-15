@@ -1,0 +1,26 @@
+.yesterday-employee p {
+    margin: 0 0;
+    color: #fff;
+}
+
+.yesterday-employee {
+    color: #fff;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.yesterday-employee p:nth-child(2) {
+    font-size: 20px;
+    color: #F07E33;
+}
+
+.yesterday-employee-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-top: 10px;
+    /* border: 5px solid #FFF; */
+    box-shadow: 0 0 0 4px #FFF; 
+}

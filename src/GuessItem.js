@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/App.css';
+import './styles/guess-item.css';
 
 function toTitleCase(str) {
     if (!str) return str;
@@ -65,18 +65,13 @@ const GuessItem = ({ guess, correctAnswer, guessNumber }) => {
         }
 
         // Para nascimento (formato DD/MM/YYYY)
-        if (field === 'NASCIMENTO') {
-            const [guessDay, guessMonth, guessYear] = value.split('/').map(num => parseInt(num));
-            const [correctDay, correctMonth, correctYear] = correctAnswer[field].split('/').map(num => parseInt(num));
+        if (field === 'IDADE') {
+            const guessAge = parseInt(value);
+            const correctAge = parseInt(correctAnswer[field]);
 
-            // Comparar anos, depois meses, depois dias
-            if (guessYear < correctYear ||
-                (guessYear === correctYear && guessMonth < correctMonth) ||
-                (guessYear === correctYear && guessMonth === correctMonth && guessDay < correctDay)) {
+            if (guessAge < correctAge) {
                 return 'incorrect up';
-            } else if (guessYear > correctYear ||
-                (guessYear === correctYear && guessMonth > correctMonth) ||
-                (guessYear === correctYear && guessMonth === correctMonth && guessDay > correctDay)) {
+            } else {
                 return 'incorrect down';
             }
         }
@@ -99,7 +94,7 @@ const GuessItem = ({ guess, correctAnswer, guessNumber }) => {
         <div className="guess-item">
             <div className='guess-item-header'>
                 <div className='guess-item-profile'>
-                    <img src={guess.FOTOS} alt={guess.NOME} className="profile-pic" />
+                    <img src={guess.PROFILEPIC || 'https://marketplace.canva.com/A5alg/MAESXCA5alg/1/tl/canva-user-icon-MAESXCA5alg.png'} alt={guess.NOME} className="profile-pic" />
                     <span className="profile-name">{toTitleCase(guess.NOME)}</span>
                 </div>
                 <div className='guess-item-number'>
@@ -111,12 +106,12 @@ const GuessItem = ({ guess, correctAnswer, guessNumber }) => {
 
             <div className="guess-item-content-container">
                 <div className="info-content">
-                    <p>Nascimento</p>
+                    <p>Idade</p>
                     {(() => {
-                        const colorClass = getColorClass('NASCIMENTO', guess.NASCIMENTO);
+                        const colorClass = getColorClass('IDADE', guess.IDADE);
                         return (
                             <div className={`info-content-container ${colorClass}`}>
-                                <p>{guess.NASCIMENTO}</p>
+                                <p>{guess.IDADE}</p>
                                 {renderArrow(colorClass)}
                             </div>
                         );
@@ -164,12 +159,12 @@ const GuessItem = ({ guess, correctAnswer, guessNumber }) => {
                     </div>
                 </div>
 
-                <div className="info-content">
+                {/* <div className="info-content">
                     <p>Liderança</p>
                     <div className={`info-content-container ${getColorClass('LIDERANÇA', guess.LIDERANÇA)}`}>
                         <p>{guess.LIDERANÇA}</p>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="info-content">
                     <p>Ingresso</p>

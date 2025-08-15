@@ -1,0 +1,64 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #2d2a2a;
+    border-radius: 15px;
+    padding: 30px;
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+    animation: modalFadeIn 0.3s ease;
+}
+
+.modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #F07E33;
+}
+
+.modal-header h2 {
+    color: #F07E33;
+    text-align: center;
+    margin-top: 0;
+}
+
+.modal-body {
+    text-align: center;
+    color: #fff;
+}
+
+.modal-employee {
+    margin-top: 20px;
+}
+
+.modal-employee-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #F07E33;
+}
+
+.modal-employee-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0 0 0;
+    /* top right bottom left */
+    color: #F07E33;
+}
