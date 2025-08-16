@@ -50,3 +50,104 @@
 .red {
     background-color: #F44336;
 }
+
+@media screen and (max-width: 1200px) {
+.caption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    justify-content: space-between;
+    background-color: #231F1F;
+    border-radius: 32px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    color: #fff
+}
+}
+
+@media screen and (max-width: 768px) {
+.caption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    justify-content: space-between;
+    background-color: #231F1F;
+    border-radius: 32px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    color: #fff
+}
+.circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-left: 10px;
+    /* Espaço entre os círculos e textos */
+}
+.legend-text{
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+.legend-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 8px; */
+    /* Espaço entre os elementos */
+    /* padding-right: 10px; */
+    flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 480px) {
+.caption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    justify-content: space-between;
+    background-color: #231F1F;
+    border-radius: 32px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    color: #fff
+}
+
+.caption-title {
+    font-size: 18px;
+    color: #fff;
+    margin-right: 10px;
+    font-weight: bold;
+    /* Adicionado para deixar o texto em negrito */
+    padding-left: 10px;
+
+}    
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 10px;
+    /* Espaço entre os círculos e textos */
+}
+.legend-text{
+    font-size: 12px;
+    flex-wrap: wrap;
+}
+.legend-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    /* Espaço entre os elementos */
+    padding: 10px 10px;
+    flex-wrap: wrap;
+}
+}
