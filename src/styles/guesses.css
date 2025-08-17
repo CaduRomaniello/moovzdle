@@ -3,27 +3,30 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-width: 50%;
-    max-width: 50%;
+    /* min-width: 50%;
+    max-width: 50%; */
+    width: 50%;
     height: 100%;
     gap: 20px;
     margin-top: 30px;
 }
 
-@media screen and (max-width: 480px) {
-    .guesses-container {
-        min-width: 90%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .guesses-container {
-        min-width: 80%;
-    }
-}
-
 @media screen and (max-width: 1200px) {
     .guesses-container {
-        min-width: 60%;
+        width: 60%;
+    }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+    .guesses-container {
+        width: 80%;
+    }
+}
+
+/* Celulares */
+@media screen and (max-width: 480px) {
+    .guesses-container {
+        width: 95%; /* Agora esta regra será aplicada corretamente */
     }
 }

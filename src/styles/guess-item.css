@@ -169,7 +169,6 @@
     }
     .guess-number{
         align-items: center;
-        
     }
 }
 @media screen and (max-width: 375px) {
@@ -187,5 +186,8 @@
     .guess-number{
         align-items: center;
         
+    }
+    .guess-item{
+        width: 100%;
     }
 }

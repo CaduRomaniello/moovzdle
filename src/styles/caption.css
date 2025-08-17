@@ -35,8 +35,14 @@
     width: 18px;
     height: 18px;
     border-radius: 50%;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     /* Espaço entre os círculos e textos */
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px; /* Espaçamento entre o círculo e o texto */
 }
 
 .green {
@@ -87,7 +93,7 @@
     width: 14px;
     height: 14px;
     border-radius: 50%;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     /* Espaço entre os círculos e textos */
 }
 .legend-text{
@@ -111,7 +117,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: auto;
+    width: 90%;
     justify-content: space-between;
     background-color: #231F1F;
     border-radius: 32px;
@@ -123,24 +129,24 @@
 
 .caption-title {
     font-size: 18px;
-    color: #fff;
-    margin-right: 10px;
+    color:#fff;
+    /* margin-right: 10px; */
     font-weight: bold;
     /* Adicionado para deixar o texto em negrito */
-    padding-left: 10px;
+    /* padding-left: 10px; */
 
 }    
 .circle {
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
-    margin-left: 10px;
+    /* margin-left: 20px; */
     /* Espaço entre os círculos e textos */
 }
 .legend-text{
-    font-size: 12px;
-    flex-wrap: wrap;
+    font-size: 14px;
 }
+
 .legend-container {
     display: flex;
     flex-direction: row;
