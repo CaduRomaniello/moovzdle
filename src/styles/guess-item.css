@@ -160,6 +160,17 @@
     .guess-item-header{
         flex-wrap: wrap;
     }
+    .guess-item-profile{
+        flex-wrap: wrap;
+    }
+    .guess-item-number{
+        margin-left: 40%;
+        /* align-items: center; */
+    }
+    .guess-number{
+        align-items: center;
+        
+    }
 }
 @media screen and (max-width: 375px) {
     .guess-item-content-container {
