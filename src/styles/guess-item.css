@@ -157,10 +157,37 @@
         gap: 10px;
         /* flex-wrap: wrap; */
       }
+    .guess-item-header{
+        flex-wrap: wrap;
+    }
+    .guess-item-profile{
+        flex-wrap: wrap;
+    }
+    .guess-item-number{
+        margin-left: 40%;
+        /* align-items: center; */
+    }
+    .guess-number{
+        align-items: center;
+    }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
     .guess-item-content-container {
         gap: 8px;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
       }
+    .guess-item-profile{
+        flex-wrap: wrap;
+    }
+    .guess-item-number{
+        margin-left: 40%;
+        /* align-items: center; */
+    }
+    .guess-number{
+        align-items: center;
+        
+    }
+    .guess-item{
+        width: 100%;
+    }
 }

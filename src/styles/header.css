@@ -54,3 +54,21 @@
     width: 100%;
     position: relative;
 }
+
+@media screen and (max-width: 768px) {
+    .header-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header-container {
+        width: 60%;
+    }
+}

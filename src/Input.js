@@ -16,6 +16,13 @@ function toTitleCase(str) {
 function Input(
     { inputValue, handleInputChange, suggestions, selectSuggestion, handleGuess, guesses }
 ) {
+    const handleEnter = (event) => {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+            handleGuess();
+        }
+    };
+
     return (
         <>
             <div className="subtitle-container">
@@ -27,6 +34,7 @@ function Input(
                         type="text"
                         value={inputValue}
                         onChange={handleInputChange}
+                        onKeyDown={handleEnter}
                         placeholder="Digite o nome de alguém aqui..."
                         className="text-input" />
 
