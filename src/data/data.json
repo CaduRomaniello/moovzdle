@@ -574,5 +574,25 @@
     "ANO": 2001,
     "IDADE": 23,
     "PROFILEPIC": "profile-pics/kamilla-rodrigues.jpg"
+  },
+  {
+    "NOME": "tiago freitas",
+    "NASCIMENTO": "16/03/2004",
+    "GENERO": "masculino",
+    "ALTURA": 178,
+    "CABELO": "curto",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "INGRESSO": "09/2025",
+    "HOBBY": [
+      "musica",
+      "jogos"
+    ],
+    "FOTOS": "https://imgur.com/a/PJQLvmZ",
+    "DIA": 16,
+    "MES": 3,
+    "ANO": 2004,
+    "IDADE": 21,
+    "PROFILEPIC": "profile-pics/tiago-freitas.jpg"
   }
 ]
