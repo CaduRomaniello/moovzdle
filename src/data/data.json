@@ -594,5 +594,26 @@
     "ANO": 2004,
     "IDADE": 21,
     "PROFILEPIC": "profile-pics/tiago-freitas.jpg"
-  }
+  },
+  {
+    "NOME": "Gabriel Gonzaga",
+    "NASCIMENTO": "22/12/2003",
+    "GENERO": "masculino",
+    "ALTURA": 187,
+    "CABELO": "medio",
+    "CARGO": "dev",
+    "SETOR": "produto",
+    "INGRESSO": "09/2025",
+    "HOBBY": [
+      "academia",
+      "musica",
+      "videogame"
+    ],
+    "FOTOS": "https://imgur.com/a/to-de-olho-em-vc-0QqSKE0",
+    "DIA": 22,
+    "MES": 12,
+    "ANO": 2003,
+    "IDADE": 21,
+    "PROFILEPIC": "profile-pics/gabriel-gonzaga.jpg"
+  },
 ]
